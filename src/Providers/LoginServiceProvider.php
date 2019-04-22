@@ -29,7 +29,7 @@ class LoginServiceProvider extends ServiceProvider
             __DIR__.'/../resources/views' => base_path('resources/views/shudanti/login'),
         ]);
         $this->publishes([
-            __DIR__.'/../config/login.php' => config_path('login.php'),
+            __DIR__.'/../config/test_login.php' => config_path('test_login.php'),
         ], 'login.config');
     }
 }

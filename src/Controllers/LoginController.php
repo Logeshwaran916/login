@@ -14,7 +14,7 @@ class LoginController extends Controller
 
     public function postLogin(Request $request)
     {
-        $config = config('login.shudanti');
+        $config = config('test_login.login');
         $username = $request->input($config['username_field_name']);
         $password = $request->input($config['password_field_name']);
 
@@ -24,10 +24,6 @@ class LoginController extends Controller
             default:
                 echo 'Login success!';
         }
-    }
-
-    public function admin(Request $request) {
-        echo "Admin page";
     }
 
     public function user(Request $request) {

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login222</title>
+    <title>Login</title>
 </head>
 <body>
 <form action="{{ route('shudanti.login.postLogin') }}" method="post">
