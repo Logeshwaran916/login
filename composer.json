@@ -1,0 +1,24 @@
+{
+  "name": "shudanti/login",
+  "description": "test",
+  "authors": [
+    {
+      "name": "tienlb",
+      "email": "tienlb@shinway.net"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Shudanti\\Login\\Provider\\LoginServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Shudanti\\Login\\": "src/"
+    }
+  }
+}
