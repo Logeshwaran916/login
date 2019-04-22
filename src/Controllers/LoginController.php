@@ -18,7 +18,7 @@ class LoginController extends Controller
         $username = $request->input($config['username_field_name']);
         $password = $request->input($config['password_field_name']);
 
-        switch (config('login.mode')) {
+        switch ($config['mode']) {
             case 1: return redirect()->route('shudanti.admin');
             case 2: return redirect()->route('shudanti.user');
             default:
