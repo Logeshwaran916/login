@@ -19,8 +19,8 @@ class LoginController extends Controller
         $password = $request->input($config['password_field_name']);
 
         switch ($config['mode']) {
-            case 1: return redirect()->route('shudanti.admin');
-            case 2: return redirect()->route('shudanti.user');
+            case 1: return redirect()->route('test.admin');
+            case 2: return redirect()->route('test.user');
             default:
                 echo 'Login success!';
         }
