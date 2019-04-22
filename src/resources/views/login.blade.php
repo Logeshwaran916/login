@@ -4,7 +4,7 @@
     <title>Login</title>
 </head>
 <body>
-<form action="{{ route('shudanti.login.postLogin') }}" method="post">
+<form action="{{ route('test.login.postLogin') }}" method="post">
 
     <div class="container">
         <label for="uname"><b>Username</b></label>
